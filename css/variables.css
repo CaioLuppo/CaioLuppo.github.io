@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-color: #110B0A;
+    --liver: #034732;
+    --lion: #FFD6AF;
+    --light-orange: #C49E85;
+    --british-racing-green: #6B4B3E;
+    --blue-ncs: #0094C6;
+    --rebecca-purple: #6E2594;
+    --orange: #FF2E00;
+    --linear-gradient: -webkit-linear-gradient(360deg, var(--blue-ncs), var(--rebecca-purple), var(--orange));
+    --inverted-gradient: -webkit-linear-gradient(180deg, var(--blue-ncs), var(--rebecca-purple), var(--orange));
+
+    --1920pw: 112px;
+    --1440pw: 104px;
+    --1280pw: 72px;
+    --720pw: 32px;
+    --360pw: 16px;
+}

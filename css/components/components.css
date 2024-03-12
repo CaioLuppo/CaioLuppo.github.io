@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 24px 0px;
+
+    background-color: var(--bg-color);
+    color: whitesmoke;
+}
+
+/* Nav */
+
+nav {
+    margin: 0px 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Fredoka";
+    letter-spacing: 0.5px;
+}
+
+nav button {
+    padding: 12px 24px;
+
+    border-radius: 32px;
+    border: 0px;
+
+    font-family: "Fredoka";
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+
+    background-color: whitesmoke;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav .links {
+    display: flex;
+    gap: 24px;
+}
+
+/* Buttons */
+
+.emphasizedButton {
+    font-size: 24px;
+    background-image: var(--linear-gradient);
+    font-weight: bold;
+    border: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Urbanist";
+    letter-spacing: 0.5px;
+}
+
+.blankButton {
+    font-size: 24px;
+    background: none;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Urbanist";
+    letter-spacing: 0.5px;
+}
+
+/* Divisor */
+
+hr {
+    height: 64px;
+    background-image: linear-gradient(90deg, var(--orange), var(--rebecca-purple), var(--blue-ncs));
+    border: none;
+}
+
+.simpleDivider {
+    width: 80%;
+    height: 2px;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    margin: 16px;
+}
+
+/* Components */
+
+.sectionHead {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sectionHead p {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.sectionHead h1 {
+    width: fit-content;
+    font-size: 72px;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--blue-ncs), var(--rebecca-purple), var(--orange));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer */
+
+footer .simpleDivider {
+    margin: 116px calc(var(--1920pw)) 0px calc(var(--1920pw));
+}
+
+footer .content {
+    padding: 40px var(--1920pw) 16px var(--1920pw);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Urbanist";
+    letter-spacing: 0.5px;
+}
+
+footer .content h1 {
+    font-size: 24px;
+}
+
+footer .content .links a {
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer .content .links {
+    display: flex;
+    gap: 32px;
+}
